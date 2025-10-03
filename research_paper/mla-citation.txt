@@ -1,0 +1,1 @@
+Shirako, Jun, et al. "Automatic parallelization of python programs for distributed heterogeneous computing." European Conference on Parallel Processing. Cham: Springer International Publishing, 2022.

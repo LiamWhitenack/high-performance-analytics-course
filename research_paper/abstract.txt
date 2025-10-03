@@ -1,0 +1,22 @@
+This paper introduces a novel approach to automatic ahead-
+of-time (AOT) parallelization and optimization of sequential Python pro-
+grams for execution on distributed heterogeneous platforms. Our ap-
+proach enables AOT source-to-source transformation of Python pro-
+grams, driven by the inclusion of type hints for function parameters
+and return values. These hints can be supplied by the programmer or
+obtained by dynamic profiler tools; multi-version code generation guar-
+antees the correctness of our AOT transformation in all cases.
+Our compilation framework performs automatic parallelization and so-
+phisticated high-level code optimizations for the target distributed het-
+erogeneous hardware platform. It includes extensions to the polyhedral
+framework that unify user-written loops and implicit loops present in
+matrix/tensor operators, as well as automated section of CPU vs. GPU
+code variants. Further, our polyhedral optimizations enable both intra-
+node and inter-node parallelism. Finally, the optimized output code is
+deployed using the Ray runtime for scheduling distributed tasks across
+multiple heterogeneous nodes in a cluster.
+Our empirical evaluation shows significant performance improvements
+relative to sequential Python in both single-node and multi-node exper-
+iments, with a performance improvement of over 20,000×when using
+24 nodes and 144 GPUs in the OLCF Summit supercomputer for the
+Space-Time Adaptive Processing (STAP) radar application.

@@ -1,6 +1,0 @@
-./slurmHex.c: In function ‘main’:
-./slurmHex.c:16:1: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
-   16 | sleep(5);
-      | ^~~~~
-srun: warning: can't honor --ntasks-per-node set to 5 which doesn't match the requested tasks 16 with the maximum number of requested nodes 3. Ignoring --ntasks-per-node.
-srun: error: Unable to create step for job 4724186: More processors requested than permitted
