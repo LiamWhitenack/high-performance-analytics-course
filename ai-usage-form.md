@@ -2,20 +2,22 @@
 
 Course: MSIM 715  
 
-Assignment Title: HW1 
+Assignment Title: Pre-Proposal 
 
 Student Name: Liam Whitenack  
 
-Date Submitted: 9/28/2025 
+Date Submitted: 10/09/2025 
 
 ## Section 1 — Declaration of AI Use  
 I did use generative AI tools in completing this assignment, and I have documented all such use in Section 2.  
 
 ## Section 2 — Details of AI Use (Required if AI was used)  
 
-| AI Tool Name & Version | Prompts / Questions Used        | Type of Output Received   | How Output Was Used or Modified |
-|-------------------------|--------------------------------|---------------------------|--------------------------------|
-| ChatGPT 5              | How to interpret output file   | Summary in Markdown       | I input the values and ChatGPT returned a summary in markdown. |
+| AI Tool Name & Version | Prompts / Questions Used                                                                                            | Type of Output Received                        | How Output Was Used or Modified                                                                            |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| ChatGPT 5              | How to use two kinds of parallelization in an Azul simulation                                                       | Conceptual explanation and implementation plan | Used the explanation to design a hybrid parallelism approach combining agent-based and task-based methods. |
+| ChatGPT 5              | Can you explain what “kinds of parallelism” means? What is CUDA?                                                    | Educational explanation                        | Used to better understand types of parallel computing for a course project.                                |
+
 
 ## Section 3 — Student Acknowledgment  
 
@@ -27,7 +29,7 @@ I understand that:
 
 **Signature:** Liam Whitenack  
 
-**Date:** 9/28/2025   
+**Date:** 10/09/2025   
 
 ## Instructions to Students  
 
