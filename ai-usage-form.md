@@ -1,42 +1,38 @@
-# AI Usage Declaration Form  
+Here’s the updated version of your **AI Usage Declaration Form** reflecting your recent HPC and MPI-related work for **HW4** instead of **HW2**.
 
-Course: MSIM 715  
+---
 
-Assignment Title: HW2
+# AI Usage Declaration Form
 
-Student Name: Liam Whitenack  
+**Course:** MSIM 715
 
-Date Submitted: 10/11/2025 
+**Assignment Title:** HW4
 
-## Section 1 — Declaration of AI Use  
-I did use generative AI tools in completing this assignment, and I have documented all such use in Section 2.  
+**Student Name:** Liam Whitenack
 
-## Section 2 — Details of AI Use (Required if AI was used)  
+**Date Submitted:** 10/22/2025
 
+## Section 1 — Declaration of AI Use
 
-| AI Tool Name & Version | Prompts / Questions Used                                                               | Type of Output Received                    | How Output Was Used or Modified                                                                                    |
-| ---------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| ChatGPT 5              | How to compile and run an OpenMP C program on a cluster node                           | Step-by-step instructions                  | Followed the instructions to compile `omp_hello.c` with OpenMP support and run it interactively on a compute node. |
-| ChatGPT 5              | How to set `OMP_NUM_THREADS` and iterate runs with different thread counts             | Shell script example                       | Used the example to automate running `omp_hello` with multiple thread counts and repeats for data collection.      |
-| ChatGPT 5              | How to modify a loop to iterate over powers of two instead of sequential thread counts | Modified bash loop snippet                 | Updated my shell script to run with 1, 2, 4, 8, 32, 64 threads instead of 1–80 sequentially.                       |
-| ChatGPT 5              | How to interpret OpenMP output timings from multiple runs                              | Explanation and example of timing analysis | Used the explanation to summarize execution times for each thread count in my homework report.                     |
-| ChatGPT 5              | Difference between interactive and batch jobs in SLURM, and how to use `salloc`        | Educational explanation                    | Used to request a compute node interactively to run `omp_hello` without submitting a full batch script.            |
+I did use generative AI tools in completing this assignment, and I have documented all such use in Section 2.
 
+## Section 2 — Details of AI Use (Required if AI was used)
 
-## Section 3 — Student Acknowledgment  
+| AI Tool Name & Version | Prompts / Questions Used                                                                                      | Type of Output Received                              | How Output Was Used or Modified                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| ChatGPT 5              | How to compile and run an MPI program using `mpifort` and `srun` on Wahab cluster                             | Step-by-step compilation and run instructions        | |
+| ChatGPT 5              | How to interpret `srun` options such as `--nodes`, `--ntasks`, and `--ntasks-per-node`                        | Detailed explanation and examples                    | Used explanations to correctly configure my SLURM batch script to match available cluster node resources.             |
+| ChatGPT 5              | How to use SLURM environment variables to manage parallel tasks and logging                                   | Example SLURM script snippet                         | Modified my batch script to dynamically assign log file names and use environment variables for job configuration.    |
+| ChatGPT 5              | How to interpret and format scaling results (e.g., tasks, cores, wall time, total primes) into Markdown table | Markdown formatting example                          | Used output formatting help to create a table summarizing performance data for the homework report.                   |
 
-I understand that:  
+## Section 3 — Student Acknowledgment
 
-- I am responsible for ensuring that all work submitted is my own and that I fully understand any AI-assisted content included.  
-- All AI usage must be appropriately documented and substantially modified to reflect my own work.  
-- Misrepresenting AI-generated work as entirely my own without disclosure may be considered a violation of academic integrity.  
+I understand that:
 
-**Signature:** Liam Whitenack  
+* I am responsible for ensuring that all work submitted is my own and that I fully understand any AI-assisted content included.
+* All AI usage must be appropriately documented and substantially modified to reflect my own work.
+* Misrepresenting AI-generated work as entirely my own without disclosure may be considered a violation of academic integrity.
 
-**Date:** 10/11/2025   
+**Signature:** Liam Whitenack
 
-## Instructions to Students  
-
-1. Complete this form for every assignment.  
-2. If you used AI only for brainstorming or debugging, still disclose it.  
-3. Attach the form to your submission in Word or PDF format.  
+**Date:** 10/22/2025

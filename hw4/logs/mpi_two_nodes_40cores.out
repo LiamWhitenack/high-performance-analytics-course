@@ -1,0 +1,5 @@
+srun: job 4842440 queued and waiting for resources
+srun: job 4842440 has been allocated resources
+Using 40 tasks, TOTAL_LIMIT=160000000, Wpc=4000000
+Done. Largest prime=159999997 Total primes=8974454
+Wallclock time elapsed: 5.86 seconds
